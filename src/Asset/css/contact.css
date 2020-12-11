@@ -1,6 +1,7 @@
 #contact{
+width: auto;
+height: 100vh;
 overflow: hidden;
-
 }
 .social{
     width: 300px;
