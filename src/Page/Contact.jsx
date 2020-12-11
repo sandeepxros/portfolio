@@ -41,7 +41,8 @@ function Contact() {
                             </a>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="d-flex justify-content-center">
+
                         <Link to="/work" className='btn btn-outline-x mx-2'>
                             {link}
                         </Link>
