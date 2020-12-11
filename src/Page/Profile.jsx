@@ -1,5 +1,5 @@
 import React from 'react'
-import bootstrap from "bootstrap"
+import  "bootstrap/dist/css/bootstrap.min.css"
 import '../Asset/css/profile.css';
 import img from '../Asset/images/profile.jpg'
 import {Link} from 'react-router-dom'

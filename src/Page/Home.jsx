@@ -1,5 +1,5 @@
 import React from 'react'
-import bootstrap from "bootstrap"
+import  "bootstrap/dist/css/bootstrap.min.css"
 import '../Asset/css/home.css';
 import {Link} from "react-router-dom"
 
