@@ -21,13 +21,13 @@ function Contact() {
                     <div className="row mt-5 mb-5">
                         <h1 className="display-3 mb-5 mx-5">Contact Me</h1>
                         <div className="col-10 mx-auto d-flex justify-content-center align-items-center">
-                            <a href="https://facebook.com/sandeepkumarforever" className="btn  btn-outline-color mx-2" target='_blank'>
+                            <a href="https://facebook.com/sandeepkumarforever" className="btn  btn-outline-color mx-2" target='_blank' rel="noreferrer">
                             <i class="fab fa-facebook-f" ></i>
                             </a>
-                            <a href="https://twitter.com/sandeepxros" className="btn btn-outline-color mx-2"target='_blank'>
+                            <a href="https://twitter.com/sandeepxros" className="btn btn-outline-color mx-2"target='_blank' rel="noreferrer">
                             <i class="fab fa-twitter"></i>
                              </a>
-                            <a href="https://instagram.com/sandeepkumarforever" className="btn btn-outline-color mx-2"target='_blank'>
+                            <a href="https://instagram.com/sandeepkumarforever" className="btn btn-outline-color mx-2"target='_blank' rel="noreferrer">
                             <i class="fab fa-instagram"></i>
                             </a>
                             <a href="https://github.com/sandeepxros" className="btn btn-outline-color mx-2">

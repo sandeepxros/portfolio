@@ -19,7 +19,7 @@ function Work() {
                  <div className="col">
                  <h1 className="display-3 work">Work & Project</h1>
                  <p className="lead text-white">
-                    Check out my latest projects on <a href="https://github.com/sandeepxros" target="_blank" className="github">Github</a>
+                    Check out my latest projects on <a href="https://github.com/sandeepxros" target="_blank" className="github" rel="noreferrer">Github</a>
                     </p>  
                  <div className="workDiv"></div>
                  <Link to="/skill" className='btn btn-outline-x mx-2'>
