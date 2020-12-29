@@ -93,6 +93,8 @@
 .github-link:hover{
     color:yellow;
 }
-.github-span{
-    font-size:.8em;
-}
+  @media only screen and (max-width: 768px) {
+        .github-span{
+        font-size:.4em;
+        }
+    }

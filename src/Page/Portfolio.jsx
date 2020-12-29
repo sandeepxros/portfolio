@@ -75,7 +75,7 @@ function Portfolio() {
         <a className='github-link'  href="https://sandeepkumarsoni.netlify.app" target='_blank' rel="noreferrer">go to site</a>
         </Div>
         </Section>
-        <Section>
+        <Section style={{paddingTop:'2vh !important'}}>
             <Div>
         <Iframe src="https://magicnotesbysandeep.netlify.app/" title="description" scrolling="no" />
         <a className='github-link'  href="https://magicnotesbysandeep.netlify.app/" target='_blank' rel="noreferrer">go to site</a>
