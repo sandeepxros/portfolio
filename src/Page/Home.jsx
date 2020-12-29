@@ -76,7 +76,7 @@ function Home() {
                 Kumar <br></br>
                 Soni</b></H1>
                 <P><b>I code the Web </b></P>
-                <Link className='link-button' style={{ position:'absolute',top:"80%", left:"50%" , transform :"translate(-50%,-50%)"}} to="/about">Start</Link>
+                <Link className='link-button' style={{ position:'absolute',top:"80%", left:"50%" , transform :"translate(-60%,-50%)"}} to="/about">Start</Link>
             </Container>
            
         </>
