@@ -21,8 +21,8 @@ export default function Navbar() {
                 <Link className= 'Links' to='/' ><b>Home</b></Link>
                 <Link className= 'Links' to='/about' ><b>About Me</b></Link>
                 <Link className= 'Links' to='/portfolio'><b>Portfolio</b></Link>
-                <Link className= 'Links' to='mailto:sandeepkumar8842@gmail.com'  ><b>Contact</b></Link>
-                <Link className= 'Links' to='mailto:sandeepkumar8842@gmail.com' ><b>Hire Me</b></Link>
+                <a className= 'Links' href='mailto:sandeepkumar8842@gmail.com'  ><b>Contact</b></a>
+                <a className= 'Links' href='mailto:sandeepkumar8842@gmail.com' ><b>Hire Me</b></a>
             </Nav>
             <div className='content'>
             </div>
