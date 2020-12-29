@@ -14,8 +14,8 @@ export default function Navbar() {
                 <Link className= 'Links' to="/" onClick={()=>setClikc(!clicked)} ><b>Home</b></Link>
                 <Link className= 'Links'  to="/about" onClick={()=>setClikc(!clicked)} ><b>About Me</b></Link>
                 <Link className= 'Links'  to="/portfolio" onClick={()=>setClikc(!clicked)} ><b>Portfolio</b></Link>
-                <Link className= 'Links'  to='mailto:sandeepkumar8842@gmail.com'  onClick={()=>setClikc(!clicked)} ><b>Contact</b></Link>
-                <Link className= 'Links' to='mailto:sandeepkumar8842@gmail.com' onClick={()=>setClikc(!clicked)} ><b>Hire Me</b></Link>
+                <a className= 'Links'  href='mailto:sandeepkumar8842@gmail.com'  onClick={()=>setClikc(!clicked)} ><b>Contact</b></a>
+                <a className= 'Links' href='mailto:sandeepkumar8842@gmail.com' onClick={()=>setClikc(!clicked)} ><b>Hire Me</b></a>
             </MobileNav>
             <Nav id="main-nav">
                 <Link className= 'Links' to='/' ><b>Home</b></Link>
