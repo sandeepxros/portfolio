@@ -51,7 +51,7 @@ const H = styled.h1`
     font-weight:700;
     margin: 0 auto;
     margin-top : 2em ; 
-    text-decoration : underline;
+    letter-spacing: 0.1em;
     font-size:1.5em; 
     @media only screen and (min-width: 768px) {
         margin-top:14vh;
@@ -63,7 +63,7 @@ function Portfolio() {
     return (
         <>
        
-       <Div row><H><b>Some Projects</b></H></Div>
+       <Div row><H>Some Projects</H></Div>
         <Section>
            
         <Div>
