@@ -9,7 +9,7 @@ const Section = styled.section`
     width:100%; 
     background : #000000; 
     color : #fff; 
-    padding-top:12vh;
+    padding-top:2vh;
     margin:0;
     display:flex;
     justify-content:space-around;
