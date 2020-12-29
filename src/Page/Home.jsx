@@ -5,6 +5,7 @@ import styled,{keyframes} from 'styled-components';
 import video from '../Asset/ss.mp4'
 import poster from '../Asset/nova.gif'
 import {Link} from 'react-router-dom'
+import audio from '../Asset/canwekiss.mp3'
 
 const animations = keyframes`
  0% {   top:110%; }
@@ -69,6 +70,10 @@ function Home() {
                     <source src={video} type="video/mp4" />
                Your browser does not support HTML5 video.
              </Video>
+                    <audio autoPlay>
+        <source src={audio} type="audio/ogg" />
+        Your browser does not support the audio element.
+        </audio>
          
             <Container id="home">
 
