@@ -46,7 +46,7 @@ const A = styled.a`
     font-size:1.3em;
     font-weight:600;
     transition:0.5s all ease;
-    margin-top: 2em;
+    margin-top: 1.5em;
     cursor:pointer;
     :hover{
         color:yellow;
@@ -64,6 +64,7 @@ const H = styled.h1`
     color: #fff;
     font-weight:700;
     margin: 0 auto;
+    margin-top : 2em ; 
     text-decoration : underline;
     font-size:1.5em; 
     @media only screen and (min-width: 768px) {
