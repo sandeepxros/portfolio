@@ -38,20 +38,7 @@ const Div = styled.div`
     background:black;
  
 `;
-const A = styled.a`
-    text-decoration:none;
-    font-family: "Major Mono Display";
-    color: grey;
-    font-size:1.3em;
-    font-weight:600;
-    transition:0.5s all ease;
-    margin-top: 1.5em;
-    cursor:pointer;
-    :hover{
-        color:yellow;
-    }
 
-`
 const Icon = styled(FaGithub)`
 font-size: 1.3em;
 margin-left:.3em;
@@ -81,28 +68,30 @@ function Portfolio() {
            
         <Div>
         <Iframe src="https://lucid-stonebraker-7bad4c.netlify.app/#" title="description" scrolling="no" />
-        <A href="https://lucid-stonebraker-7bad4c.netlify.app/#" target='_blank' rel="noreferrer">go to site</A>
+        <a className='github-link'  href="https://lucid-stonebraker-7bad4c.netlify.app/#" target='_blank' rel="noreferrer">go to site</a>
         </Div>
         <Div>
         <Iframe src="https://sandeepkumarsoni.netlify.app" title="description" scrolling="no" />
-        <A href="https://sandeepkumarsoni.netlify.app" target='_blank' rel="noreferrer">go to site</A>
+        <a className='github-link'  href="https://sandeepkumarsoni.netlify.app" target='_blank' rel="noreferrer">go to site</a>
         </Div>
         </Section>
         <Section>
             <Div>
         <Iframe src="https://magicnotesbysandeep.netlify.app/" title="description" scrolling="no" />
-        <A href="https://magicnotesbysandeep.netlify.app/" target='_blank' rel="noreferrer">go to site</A>
+        <a className='github-link'  href="https://magicnotesbysandeep.netlify.app/" target='_blank' rel="noreferrer">go to site</a>
         </Div>
         <Div>
         <Iframe src="https://condescending-dijkstra-5b1f1b.netlify.app/" title="description"  scrolling="no"/>
-        <A href="https://condescending-dijkstra-5b1f1b.netlify.app/" target='_blank' rel="noreferrer">go to site</A>
+        <a className='github-link'  href="https://condescending-dijkstra-5b1f1b.netlify.app/" target='_blank' rel="noreferrer">go to site</a>
         </Div>
         </Section>
         <Div>
         <Link className='link-button add-margin' to="/">Home Page</Link>
         </Div>
         <Section>
-        <Div row> <A href="https://github.com/sandeepxros" target='_blank' rel="noreferrer">There are many more check it out.<Icon /></A></Div>
+        <Div row> <a className='github-link'  href="https://github.com/sandeepxros" target='_blank' rel="noreferrer">
+        <span className='github-span'>There are many more check it out. </span> 
+            <Icon /></a></Div>
         </Section>
 
         </>

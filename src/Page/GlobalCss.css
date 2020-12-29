@@ -78,3 +78,18 @@
  .add-margin{
      margin-top: 2em;
  }
+
+ .github-link{
+ text-decoration:none;
+ font-family: "Major Mono Display";
+ color: grey;
+ font-size:1.3em;
+ font-weight:600;
+ transition:0.5s all ease;
+ margin-top: 1.5em;
+ cursor:pointer;
+
+}
+.github-link:hover{
+    color:yellow;
+}
