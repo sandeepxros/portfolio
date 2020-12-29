@@ -102,7 +102,7 @@ function Portfolio() {
         <Link className='link-button add-margin' to="/">Home Page</Link>
         </Div>
         <Section>
-        <Div row>There are many more check it out. <A href="https://github.com/sandeepxros" target='_blank' rel="noreferrer"><Icon /></A></Div>
+        <Div row> <A href="https://github.com/sandeepxros" target='_blank' rel="noreferrer">There are many more check it out.<Icon /></A></Div>
         </Section>
 
         </>
