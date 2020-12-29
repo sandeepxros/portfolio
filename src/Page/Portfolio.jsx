@@ -4,7 +4,7 @@ import {FaGithub} from 'react-icons/fa'
 import {Link} from 'react-router-dom'
 
 const Section = styled.section`
-    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+   
     font-family: 'Open Sans', sans-serif;
     width:100%; 
     background : #000000; 
@@ -39,7 +39,6 @@ const Div = styled.div`
  
 `;
 const A = styled.a`
-    @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Major+Mono+Display&display=swap');
     text-decoration:none;
     font-family: "Major Mono Display";
     color: #fff;
