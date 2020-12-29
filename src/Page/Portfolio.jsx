@@ -41,7 +41,7 @@ const Div = styled.div`
 const A = styled.a`
     text-decoration:none;
     font-family: "Major Mono Display";
-    color: rgba(0,0,0,.5);
+    color: grey;
     font-size:1.3em;
     font-weight:600;
     transition:0.5s all ease;
