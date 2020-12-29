@@ -48,7 +48,6 @@ const H = styled.h1`
 
     font-family: 'Major Mono Display', monospace;
     color: #fff;
-    font-weight:700;
     margin: 0 auto;
     margin-top : 2em ; 
     letter-spacing: 0.1em;
