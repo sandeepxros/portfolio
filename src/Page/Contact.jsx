@@ -1,6 +1,5 @@
 import React from 'react'
 import  "bootstrap/dist/css/bootstrap.min.css"
-import '../Asset/css/contact.css';
 import { Link } from 'react-router-dom'
 
 

@@ -1,26 +1,27 @@
 import React, { Component } from 'react'
 import Home from './Page/Home'
-import Profile from './Page/Profile'
-import Skill from './Page/Skills'
-import Contact from './Page/Contact'
-import Work from './Page/Work'
-import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
+import Navbar from './Page/Navbar'
+import About from './Page/About'
+import Portfolio from './Page/Portfolio'
+import './Page/GlobalCss.css'
+import {
+  BrowserRouter,
+  Route,
+  Switch
+} from "react-router-dom";
 
 class App extends Component {
   render() {
     return (
       <>
-        <Router>
-        <Route path="/" exact component={Home} />
-          <Switch>
-            <Route path="/home" exact component={Home} />
-            <Route path="/profile" component={Profile} />
-            <Route path="/skill" component={Skill} />
-            <Route path="/work" component={Work} />
-            <Route path="/contact" component={Contact} />
-            <Redirect to='/'/>
-          </Switch >
-        </Router >
+      <BrowserRouter>           
+            <Navbar></Navbar> 
+            <Switch>
+            <Route path='/' exact component={Home}/>
+            <Route path='/about' component={About}/>
+            <Route path='/portfolio' component={Portfolio}/>
+           </Switch>
+      </BrowserRouter>
       </>
     )
   }
