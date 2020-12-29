@@ -9,13 +9,14 @@ const Section = styled.section`
     width:100%; 
     background : #000000; 
     color : #fff; 
-    padding-top:2vh;
+    padding-top:5vh;
     margin:0;
     display:flex;
     justify-content:space-around;
     align-items:center;
         @media only screen and (max-width: 768px) {
         flex-direction:column;
+        padding-top:3vh;
 }
 `
 const Iframe = styled.iframe`
