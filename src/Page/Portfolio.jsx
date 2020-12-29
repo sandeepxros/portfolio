@@ -46,6 +46,7 @@ const A = styled.a`
     font-size:1.3em;
     font-weight:600;
     transition:0.5s all ease;
+    margin-top: 2em;
     cursor:pointer;
     :hover{
         color:yellow;
