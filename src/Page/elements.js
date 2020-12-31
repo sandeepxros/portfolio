@@ -19,8 +19,11 @@ position:fixed;
 top:0;
 left:0;
 @media only screen and (max-width: 768px) {
-
+    
     display:none;
+}
+@media only screen and (min-width: 768px) {
+    background:transparent;
 }
 z-index:100;
 `
