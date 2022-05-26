@@ -7,8 +7,9 @@ import './Page/GlobalCss.css'
 import {
   Router,
   Route,
+ Routes
 } from "react-router-dom";
-import Error from './Error404'
+import Error404 from './Error404'
 
 class App extends Component {
   render() {
