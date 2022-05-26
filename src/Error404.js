@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Error404(){
     return(
         <>
-        <img src={img} className="img-fluid"/>
+        <img src={img} alt="error" className="img-fluid"/>
         <Link to='/'>Back to Home</Link>
         </>
     )
