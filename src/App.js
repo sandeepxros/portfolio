@@ -4,11 +4,7 @@ import Navbar from './Page/Navbar'
 import About from './Page/About'
 import Portfolio from './Page/Portfolio'
 import './Page/GlobalCss.css'
-import {
-  Router,
-  Route,
- Routes
-} from "react-router-dom";
+import {Routes, Route} from "react-router-dom"
 import Error404 from './Error404'
 
 class App extends Component {
